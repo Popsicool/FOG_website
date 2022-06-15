@@ -1,0 +1,271 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+.mission{
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: green;
+    font-weight: 1000;
+    
+}
+.backvid{
+    width: 100%;
+    margin: 12% 0 0 0;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+h2 {
+    text-align: center;
+    font-style: normal;
+}
+.nav-links li {
+    display: inline-block;
+    list-style: none;
+    justify-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+header a:hover {
+    background: #b3b3b3;
+    color: #0006cc;}
+header a.activePage {
+    background: green;}
+.container{
+    margin-top: 10%;
+    position: relative;
+    background-blend-mode: lighten;
+}
+.slides{
+    display:none;
+}
+.cursor{
+    cursor: pointer;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16%;
+    margin-top: -10%;
+    color: red;
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding:  8px 12px;
+    position: absolute;
+    top: 0;
+}
+.caption-container{
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    margin-top: 2%;
+    display: inline-block;
+}
+.demo{
+    opacity: 0.6;
+}
+.active, .demo:hover{
+    opacity: 1;
+}
+.block{
+    background-color: green;
+    width: 80%;
+    color: white;
+    border-radius: 2%;
+    padding: 5% 5% 5% 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+.links{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.copyright{
+    padding-bottom: 1%;
+    font-size: small;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-whatsapp{
+    color: white
+}
+.fa-google {
+    color: white
+}
+/* cards*/
+.card{
+    width: 80%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2% 2% 2% 2%;
+}
+.card-img{
+    padding-top: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.desc{
+padding: 3px;
+
+}
+.news {
+    width: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 60%;}
+header a {
+    display: inline-block;
+    margin: 1% 6% 1% 3%;
+    padding: 1% 4% 1% 4%;
+    text-decoration: none;
+    font-size: 60%;
+    width: 6%;
+    text-transform: capitalize;
+    color: #000000;}
+@media all and (min-width:700px){
+.container {
+        margin:10%;
+}
+.block{
+    margin: 2% 30% 2% 30%;
+    width: 40%;
+}
+.mission {
+    margin-left: 10%;
+    margin-top: 15%;}
+.card img{
+    height: 50vh;
+}
+.cardd{
+    margin-left: 10%;
+}
+.card {
+    width: 30%;
+    align-items: center;
+    display: inline-block;
+    float: left;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+    margin-top: 5%;
+}
+.news {width: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+    margin-bottom: 35%;
+}
+.backvid {
+    margin: 5% 0 0 30%;
+}
+.office {
+    display: inline-block;
+    width: 20%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+    margin-top: 5%;
+margin:  1% 1% 1% 1%;}
+footer {
+    clear: both;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;}
+
+}
